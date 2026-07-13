@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+message: "If you use this code or dataset, please cite the associated manuscript and this repository."
+title: "NBGA urban infrastructure optimization"
+type: software
+version: "1.0.0"
+date-released: "2026-06-18"
+authors:
+  - family-names: Lin
+    given-names: Peiyuan
+  - family-names: Yu
+    given-names: Xiangwei
+  - family-names: Liu
+    given-names: Tong
+  - family-names: Yuan
+    given-names: Xun
+  - family-names: Long
+    given-names: Chuhao
+  - family-names: Chen
+    given-names: Yang
+  - family-names: Li
+    given-names: Haoyi
+  - family-names: Xiao
+    given-names: Jun
+  - family-names: Ma
+    given-names: Baosong
+  - family-names: Huang
+    given-names: Linchong
+  - family-names: Yuan
+    given-names: Xian-Xun
+preferred-citation:
+  type: article
+  title: "A nested-block scalable framework for efficient and equitable urban infrastructure management"
+  authors:
+    - family-names: Lin
+      given-names: Peiyuan
+    - family-names: Yu
+      given-names: Xiangwei
+    - family-names: Liu
+      given-names: Tong
+    - family-names: Yuan
+      given-names: Xun
+    - family-names: Long
+      given-names: Chuhao
+    - family-names: Chen
+      given-names: Yang
+    - family-names: Li
+      given-names: Haoyi
+    - family-names: Xiao
+      given-names: Jun
+    - family-names: Ma
+      given-names: Baosong
+    - family-names: Huang
+      given-names: Linchong
+    - family-names: Yuan
+      given-names: Xian-Xun
+

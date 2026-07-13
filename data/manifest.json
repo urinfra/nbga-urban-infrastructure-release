@@ -1,0 +1,44 @@
+{
+  "generated_on": "2026-06-18",
+  "shuffle_seed": 20260618,
+  "datasets": [
+    {
+      "file": "data/road_assets_public.csv",
+      "rows": 200000,
+      "columns": [
+        "asset_id",
+        "condition_index",
+        "cost_preservation",
+        "cost_rehabilitation",
+        "cost_reconstruction",
+        "risk_weight",
+        "loss_exposure"
+      ],
+      "sha256": "011901e321a8fa4e2da5d72e8dc91ca32f741f0a750ec5880bf7a42e2f77f1cc"
+    },
+    {
+      "file": "data/pipe_assets_public.csv",
+      "rows": 200000,
+      "columns": [
+        "asset_id",
+        "length_m",
+        "diameter_mm",
+        "burial_depth_m",
+        "age_years",
+        "years_since_last_failure",
+        "cost_minor_repair",
+        "cost_lining",
+        "cost_replacement",
+        "risk_weight",
+        "loss_exposure"
+      ],
+      "sha256": "ea245b591bf6d2345cc933ed6995a245ea963d78530f267124340733cc82ffb7"
+    }
+  ],
+  "de_identification": [
+    "Original asset identifiers removed and replaced with sequential public IDs after shuffling.",
+    "Rows randomized independently for each asset class.",
+    "Pipe absolute calendar years converted to relative age and years-since-last-failure variables.",
+    "No local filesystem paths or source document paths are included."
+  ]
+}
